@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+
+p
+{
+    color: deeppink; 
+    font-family: 'Oranienbaum', serif;
+}
+
+.menu_item{
+    color: rgb(54, 180, 180);
+ display: block;
+ text-decoration: none;
+ width: 150px;
+ padding: 5px;
+ margin: 2px 2px 10px;   
+ border: 3px solid rgb(117, 36, 36);
+ text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+ background: rgb(78, 74, 74);
+ box-shadow: 10px 10px 40px rgb(117, 36, 36);
+ border-radius: 20px;
+ transition: 5s
+ 
+}
+.menu_item:hover{
+    box-shadow: 4px 4px 20px rgb(117, 36, 36);
+}
+.penis{
+    cursor: url(1.png),default;
+}
